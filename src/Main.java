@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Please enter a radius");
         roundFlowerBed.setPerimeter(Integer.parseInt(br.readLine()));
-        System.out.println(roundFlowerBed.getPerimeter());
-        System.out.println(roundFlowerBed.getArea());
+        System.out.println("Perimeter: "+roundFlowerBed.getPerimeter());
+        System.out.println("Area: "+roundFlowerBed.getArea());
     }
 }
